@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ascii_encrypt_decrypt">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        android:ems="10"
+        android:hint="Input"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="66dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="380dp"
+        android:layout_height="268dp"
+        android:ems="10"
+        android:hint="Output"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <Button
+        android:id="@+id/Asicii_encrypt"
+        android:layout_width="137dp"
+        android:layout_height="52dp"
+        android:text="Encrypt"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="629dp" />
+
+    <Button
+        android:id="@+id/Ascii_decrypt"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:text="Decrypt"
+        tools:layout_editor_absoluteX="216dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="33dp"
+        android:text="Ascii Encryption and Decryption"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>
