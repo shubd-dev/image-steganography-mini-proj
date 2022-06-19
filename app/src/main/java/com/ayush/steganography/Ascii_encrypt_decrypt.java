@@ -36,7 +36,7 @@ public class Ascii_encrypt_decrypt extends AppCompatActivity {
 
             }
         });
-
+;
 
     }
 }
