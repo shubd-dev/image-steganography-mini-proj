@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![](app/images/Screenshot_1655755461.png)](https://example.com)
+[![](app/images/Screenshot_1655755461.png = 250x250)](https://example.com)
 
 Stenography Android App : To hide text inside any Image
 
@@ -59,7 +59,6 @@ To get a local copy up and running follow these simple example steps.
 - [ ] ASCII Encode
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -80,6 +79,6 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Name - Shubham Dhumale - shubhamdhumale@gmail.com
+Name - Shubham Dhumale - shubhamdhumale@gmail.com<br>
 Name - Abhishek Badmore
 
