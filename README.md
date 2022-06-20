@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![](app/images/Screenshot_1655755461.png=250x250)](https://example.com)
+<img src="app/images/Screenshot_1655755461.png" width="200" height="450">
 
 Stenography Android App : To hide text inside any Image
 
