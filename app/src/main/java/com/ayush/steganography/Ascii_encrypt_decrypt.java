@@ -13,12 +13,6 @@ public class Ascii_encrypt_decrypt extends AppCompatActivity {
     String output_ascii;
     EditText output1_ascii;
 
-    public static void input_new(int s)
-    {
-        System.out.println("this is my new function");
-        System.out.println("to check ijt");
-
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
