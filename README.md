@@ -17,10 +17,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<center>
 <img src="app/images/Screenshot_1655755461.png" width="200" height="450">
-
-Stenography Android App : To hide text inside any Image
+</center>
+<b>Stenography Android App : To hide text inside any Image</b>
 
 
 
