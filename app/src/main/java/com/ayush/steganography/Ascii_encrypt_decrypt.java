@@ -17,6 +17,7 @@ public class Ascii_encrypt_decrypt extends AppCompatActivity {
     {
         System.out.println("this is my new function");
         System.out.println("to check it");
+        System.out.println();
     }
 
     @Override
