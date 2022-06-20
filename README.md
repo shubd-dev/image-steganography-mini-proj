@@ -26,8 +26,9 @@
 
 ### Built With
 
-* [Andriod Studio]
-* [Java]
+* Andriod Studio
+* Java
+* Nexus 5 API 30
 
 
 <!-- GETTING STARTED -->
