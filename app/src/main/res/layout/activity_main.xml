@@ -4,30 +4,73 @@
     android:layout_margin="16dp"
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="308dp"
+        android:text="Other Encoding"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="0dp"
+        android:text="Image Steganography"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
     <Button
         android:id="@+id/encode_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="94dp"
         android:text="Encode" />
 
     <Button
         android:id="@+id/decode_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/encode_button"
         android:layout_below="@+id/encode_button"
-        android:layout_marginTop="65dp"
+        android:layout_alignEnd="@+id/encode_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="0dp"
         android:text="Decode" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/ascii_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/decode_button"
+        android:layout_alignEnd="@+id/decode_button"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="-30dp"
         android:text="ascii encryption" />
 
+    <Button
+        android:id="@+id/binary_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ascii_button"
+        android:layout_alignEnd="@+id/ascii_button"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="-10dp"
+        android:text="Binary encryption" /><![CDATA[
+
+
+
+    android:text="Button" />
+
+
+]]>
 </RelativeLayout>

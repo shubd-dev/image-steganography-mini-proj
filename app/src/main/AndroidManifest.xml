@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Binary_encrypt_decrypt"
+            android:exported="false" />
+        <activity
             android:name=".Ascii_encrypt_decrypt"
             android:exported="false" />
         <activity android:name=".MainActivity">
