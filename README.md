@@ -58,6 +58,8 @@ To get a local copy up and running follow these simple example steps.
 ## Roadmap
 
 - [ ] ASCII Encode
+- [ ] Binary Encode
+- [ ] Chat Application 
 
 
 
