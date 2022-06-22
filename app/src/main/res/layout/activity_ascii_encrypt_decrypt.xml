@@ -6,49 +6,107 @@
     android:layout_height="match_parent"
     tools:context=".Ascii_encrypt_decrypt">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="380dp"
-        android:layout_height="230dp"
-        android:ems="10"
-        android:hint="Input"
-        android:inputType="textPersonName"
-        android:singleLine="false"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="66dp" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="302dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="35dp"
+        android:text="Ascii Encrypt and Decrypt"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/input_ascii_Text_View"
         android:layout_width="380dp"
-        android:layout_height="268dp"
-        android:ems="10"
-        android:hint="Output"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="316dp" />
+        android:layout_height="138dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="67dp"
+        android:ems="15"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:lines="10"
+        android:maxLines="15"
+        android:minLines="5"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <Button
-        android:id="@+id/Asicii_encrypt"
-        android:layout_width="137dp"
-        android:layout_height="52dp"
-        android:text="Encrypt"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="629dp" />
+    <EditText
+        android:id="@+id/output_ascii_Text_View"
+        android:layout_width="364dp"
+        android:layout_height="102dp"
+        android:layout_marginBottom="58dp"
+        android:ems="15"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/Decode_button"
+        app:layout_constraintEnd_toEndOf="parent"
 
-    <Button
-        android:id="@+id/Ascii_decrypt"
-        android:layout_width="151dp"
-        android:layout_height="48dp"
-        android:text="Decrypt"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="633dp" />
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="13dp"
+        android:text="Input"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/input_ascii_Text_View"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="336dp"
-        android:layout_height="33dp"
-        android:text="Ascii Encryption and Decryption"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="19dp"
+        android:text="Output"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/output_ascii_Text_View"
+        app:layout_constraintStart_toStartOf="@+id/output_ascii_Text_View"
+        app:layout_constraintTop_toBottomOf="@+id/input_ascii_Text_View"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Encode_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="48dp"
+        android:text="Encode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Decode_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Decode_button"
+        android:layout_width="109dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="48dp"
+        android:text="Decode"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Encode_button"
+        app:layout_constraintTop_toBottomOf="@+id/output_ascii_Text_View" />
+
 </android.support.constraint.ConstraintLayout>
