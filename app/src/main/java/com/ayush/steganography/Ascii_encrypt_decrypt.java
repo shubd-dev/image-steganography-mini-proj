@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
 public class Ascii_encrypt_decrypt extends AppCompatActivity {
-    String output_stream;
+    String output_stream;;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
