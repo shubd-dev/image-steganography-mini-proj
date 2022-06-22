@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="257dp"
         android:text="Other Encoding"
         android:textSize="25sp" />
 
@@ -43,9 +43,21 @@
         android:layout_below="@+id/encode_button"
         android:layout_alignEnd="@+id/encode_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="0dp"
-        android:text="Decode" />
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="1dp"
+        android:text="Decode" /><![CDATA[
+
+
+
+
+        android:text="Button" />
+
+
+
+
+
+
+    ]]>
 
     <Button
         android:id="@+id/ascii_button"
@@ -53,8 +65,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/decode_button"
         android:layout_alignEnd="@+id/decode_button"
-        android:layout_marginTop="113dp"
-        android:layout_marginEnd="-30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="-32dp"
         android:text="ascii encryption" />
 
     <Button
@@ -63,14 +76,20 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ascii_button"
         android:layout_alignEnd="@+id/ascii_button"
-        android:layout_marginTop="62dp"
-        android:layout_marginEnd="-10dp"
-        android:text="Binary encryption" /><![CDATA[
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="-8dp"
+        android:text="Binary encryption" />
 
+    <Button
+        android:id="@+id/morse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/binary_button"
+        android:layout_alignEnd="@+id/binary_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="0dp"
+        android:text="morse encryption" />
 
-
-    android:text="Button" />
-
-
-]]>
 </RelativeLayout>

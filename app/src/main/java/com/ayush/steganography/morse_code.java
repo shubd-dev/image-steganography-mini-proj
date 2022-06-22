@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 public class morse_code extends AppCompatActivity {
 
-    public static void morseToEnglish(String[] code, String morseCode)
+    public static String morseToEnglish(String[] code, String morseCode)
     {
+        String s = "";
         String[] array = morseCode.split(" ");
         System.out.print("Morse code " + morseCode
                 + " to English is ");
@@ -17,25 +19,29 @@ public class morse_code extends AppCompatActivity {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < code.length; j++) {
                 if (array[i].compareTo(code[j]) == 0) {
-                    System.out.print((char)(j + 'a') + " ");
+                    s = s + (char)(j + 'a') + " ";
                     break;
                 }
             }
         }
+        return s;
     }
 
-    public static void englishToMorse(String[] code, String englishLang, char[] letter)
+    public static String englishToMorse(String[] code, String englishLang, char[] letter)
     {
-        System.out.print("Morse code of " + englishLang
-                + " is ");
+        String s = "";
+
+        System.out.print("Morse code of " + englishLang + " is ");
         for (int i = 0; i < englishLang.length(); i++) {
             for (int j = 0; j < letter.length; j++) {
                 if (englishLang.charAt(i) == letter[j]) {
-                    System.out.print(code[j] + " ");
+                    s = s + (code[j] + " ");
                     break;
                 }
             }
         }
+        return s;
+
     }
 
 
@@ -69,7 +75,8 @@ public class morse_code extends AppCompatActivity {
                         "..-",  "...-", ".--",  "-..-", "-.--",
                         "--..", "|" };
 
-                englishToMorse(code, text, letter);
+                String output_s  = englishToMorse(code, text, letter);
+                mEdit1.setText(output_s, TextView.BufferType.EDITABLE);
 
 
 
@@ -96,7 +103,9 @@ public class morse_code extends AppCompatActivity {
                         "..-",  "...-", ".--",  "-..-", "-.--",
                         "--..", "|" };
 
-                morseToEnglish(code, text);
+                String output_s  = morseToEnglish(code, text);
+                mEdit1.setText(output_s, TextView.BufferType.EDITABLE);
+
 
 
 

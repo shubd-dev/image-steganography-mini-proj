@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Button Image_decode = findViewById(R.id.decode_button);
         Button Ascii_decode = findViewById(R.id.ascii_button);
         Button Binary_decode = findViewById(R.id.binary_button);
+        Button Morse_decode = findViewById(R.id.morse);
+
 
 
         Image_encode.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +46,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), Binary_encrypt_decrypt.class));
+            }
+        });
+
+        Morse_decode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), morse_code.class));
             }
         });
 
