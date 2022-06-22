@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".morse_code"
+            android:exported="false" />
+        <activity
             android:name=".Binary_encrypt_decrypt"
             android:exported="false" />
         <activity
