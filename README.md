@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://www.freepnglogos.com/uploads/s-letter-logo-png-19.png" alt="Logo" width="80" height="80">
+    <center><img src="https://www.freepnglogos.com/uploads/s-letter-logo-png-19.png" alt="Logo" width="80" height="80"></center>
   </a>
 
 <h3 align="center">Android Stenography</h3>
